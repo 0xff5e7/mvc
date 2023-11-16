@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "EPFuQGBwFg0l7HEt67TuhFeh718BXD2cH+53Tce9nt2egCL/Cr0QXXF3q+hjILI4LBEgDeHULh1VoqMCIbxMuw==",
+  "success": true,
+  "projectFilePath": "/private/tmp/mvc/mvc.csproj",
+  "expectedPackageFiles": [
+    "/Users/iddo/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/iddo/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
+    "/Users/iddo/.nuget/packages/serilog.sinks.file/5.0.1-dev-00968/serilog.sinks.file.5.0.1-dev-00968.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json' 12.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
